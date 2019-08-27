@@ -30,7 +30,6 @@ padding: 25px;
 width: 16%;
 }
 
-
 div.footer {
 position: fixed;
 bottom: 0;
@@ -155,7 +154,6 @@ animation-iteration-count: infinite;
 </div>
 </a>
 </div> 
-
 
 <ul>
   <li class="dropdown"><a href="Pages/Caseflow.html">Caseflow</a>
