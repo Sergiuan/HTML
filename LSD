@@ -30,6 +30,7 @@ padding: 25px;
 width: 16%;
 }
 
+
 div.footer {
 position: fixed;
 bottom: 0;
@@ -42,6 +43,7 @@ text-align: center;
 font-size: 12px;
 padding: 8px;
 }
+
 
 ul {
 display: inline-block;
@@ -99,6 +101,7 @@ text-align: left;
   display: inline-block;
 }
 
+<!-- SPLITTERS -->
 .splitter1 {
 display: inline-block;
 float: left;
@@ -115,6 +118,7 @@ height: 80%;
 width: 70%;
 }
 
+
 .column {
 column-count: 3;
 column-width: 100px;
@@ -123,12 +127,13 @@ column-rule: 1px solid white;
 column-gap: 40px;
 }
 
+
 div.animation {
 display: block;
 position: relative;
-  width: 100px;
-  height: 100px;
-  background-color: red;
+width: 100px;
+height: 100px;
+background-color: red;
   animation-name: example;
   animation-duration: 1s;
 animation-iteration-count: infinite;
@@ -147,18 +152,21 @@ animation-iteration-count: infinite;
 
 <body>
 
-<div style="display: block; background-color: #2e2e2e;">
+
+<div style="display: block; background-color: white;">
 <div class="header">
-<a style="text-decoration: none" href="test2.html">
+<a style="text-decoration: none" href="test1.html">
 <span style="color: #d65f15">Lowell</span> <span style="color-decoration: none; color: white;">Service Desk</span>
 </div>
 </a>
 </div> 
 
+
+
 <ul>
   <li class="dropdown"><a href="Pages/Caseflow.html">Caseflow</a>
 <div class="dropdown-content">
-<a href="#">Link 1</a>
+<a href="Pages/Caseflow">Link 1</a>
 <a href="#">Link 2</a>
 <a href="#">Link 3</a>
 </div></li>
@@ -194,9 +202,9 @@ animation-iteration-count: infinite;
 </div></li>
 </ul>
 
+
 <div class="column">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</div>
 
-<div class="animation"></div>
 
 <div class="footer">Developed by Martin Chorzewski</div> 
 
