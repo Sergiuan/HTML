@@ -44,6 +44,43 @@ font-size: 12px;
 padding: 8px;
 }
 
+ul.leftmenu {
+display: inline-block;
+overflow: hidden;
+list-style-type: none;
+background-color: blue;
+width: 100%;
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+
+li.leftmenu{
+float: right;
+display: inline-block;
+background-color: yellow;
+font-size: 0px;
+text-align: center;
+padding: 0;
+margin: 0;
+border: 0;
+text-decoration: none;
+color: white;
+}
+
+
+li a, .leftmenu{
+display: inline-block;
+font-size: 20px;
+text-align: center;
+padding: 15px;
+margin: 0;
+border: 0;
+text-decoration: none;
+color: white;
+}
+
 
 ul {
 display: inline-block;
@@ -101,7 +138,7 @@ text-align: left;
   display: inline-block;
 }
 
-<!-- SPLITTERS -->
+
 .splitter1 {
 display: inline-block;
 float: left;
@@ -150,10 +187,20 @@ animation-iteration-count: infinite;
 </style>
 </head>
 
+
+
 <body>
 
 
-<div style="display: block; background-color: white;">
+<div style="display: block; background-color: red; position: absolute; left: 363px; width: 1549px; height: 92px;">
+<ul class="leftmenu">
+<li class="leftmenu"><a class = "leftmenu" href="#">123</a></li>
+<li class="leftmenu"><a class = "leftmenu" href="#">123</a></li>
+<li class="leftmenu"><a class = "leftmenu" href="#">123</a></li>
+
+</ul>
+</div>
+
 <div class="header">
 <a style="text-decoration: none" href="test1.html">
 <span style="color: #d65f15">Lowell</span> <span style="color-decoration: none; color: white;">Service Desk</span>
